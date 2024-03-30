@@ -1,15 +1,9 @@
-#from os import read
 import time
-#import requests
-#import pandas
-#from urllib import request
 import csv
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-#from selenium.webdriver.support import expected_conditions as EC
-#from bs4 import BeautifulSoup
 url = "https://www.nseindia.com/"
 driver = webdriver.Chrome()
 driver.get(url)
